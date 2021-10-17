@@ -3,15 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
- 
-.title {
-  border: 0px solid black;
-  display: flex;
-  align-items: center;
-}
 
 h1 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
   color: black;
   margin: 10px;
   padding: 60px;
@@ -22,7 +16,6 @@ h3 {
   margin: 10px;
   padding: 60px;
 }
-
 
 #mainlogo {
   display: flex;
