@@ -4,31 +4,70 @@
   box-sizing: border-box;
 }
 
+#mainlogo {
+  text-align: center;
+  height: 100vh;
+  background-image: url(images/bg_image.jpg);
+  background-size: auto auto; 
+  background-position: center 100%;
+  background-repeat: no-repeat;
+}
+@media (max-width: 930px) {
+  #mainlogo {
+    background-size: 100% auto; 
+ 
+  }
+
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: rgb(219, 219, 219);
+
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #B2CAF0;
+
+}
+
 h1 {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: black;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5em;
+  color: #B2CAF0;
   margin: 10px;
-  padding: 60px;
+  padding: 3px;
+  font-weight: lighter;
+
 }
 h3 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: black;
+  font-family: 'Dancing Script', cursive;
+  color: #B2CAF0;
   margin: 10px;
   padding: 60px;
+  font-weight: 100;
 }
 
+img {
+  height: 60rem;
+  width:80rem;
+}
 
 .nav {
+  font-family: 'Gabriela', serif;
+  font-size: 14px;
+  font-weight: 100;
   overflow: hidden;
-  background-color: rgb(219, 219, 219);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #f2f2f2;
+  color: #B2CAF0;
   padding: 20px;
   padding: 6px;
-  position: fixed;
-  top: 0;
   padding-top: 0px;
 }
 nav ul {
@@ -38,11 +77,11 @@ nav ul {
   margin: 0;
   padding: 0;
   width: 100%;
-  background-color: #d8d2d2;
+
 }
 
 li a {
-  color: #000;
+  color: white;
   text-decoration: none;
   list-style: none;
   margin: 0px 2px;
@@ -53,7 +92,21 @@ li a {
 
 /* Change the link color on hover */
 li a:hover {
-  background-color: #555;
+  background-color: rgb(248, 221, 221);
   color: white;
 }
 
+/* about us section */
+.box .container{
+  height: 10rem;
+  width: 100%;
+}
+.box1 {
+  background: rgb(255, 244, 244
+  );
+}
+.box2 {
+  height: 20rem;
+  width:20rem;
+  background: rgb(208, 223, 246);
+}
