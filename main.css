@@ -110,3 +110,56 @@ li a:hover {
   width:20rem;
   background: rgb(208, 223, 246);
 }
+/* On the day section */
+
+.church {
+  height: 518px;
+  width: 743px;
+}
+.box3 {
+  height: 518px;
+  width:743px;
+  background: rgb(251 , 224, 195);
+}
+
+/* Location */
+.map {
+  width: 1131px;
+  height: 699px;
+}
+.box4 {
+  height: 20rem;
+  width:20rem;
+  background: rgb(251 , 224, 195);
+}
+/* gallery */
+.beer2 {
+  height: 20rem;
+  width:20rem;
+}
+.gocart {
+  height: 20rem;
+  width:20rem;
+}
+.kids {
+  height: 20rem;
+  width:20rem;
+}
+.beer {
+  height: 20rem;
+  width:20rem;
+}
+.bed {
+  height: 20rem;
+  width:20rem;
+}
+/* footer */
+.logo {
+  height: 15rem;
+  width:20rem;
+}
+.box5 {
+  height: 4rem;
+  width:100%;
+  background: rgb(251 , 224, 195);
+}
