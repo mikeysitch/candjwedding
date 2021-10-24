@@ -165,3 +165,7 @@ li a:hover {
 }
 
 .testgithub
+{
+  background-attachment: fixed;
+  backface-visibility: hidden;
+}
